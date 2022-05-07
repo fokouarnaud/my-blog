@@ -1,41 +1,56 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import { Activity,Home,Bookmark } from 'react-feather'
+import { Activity, Home, Bookmark } from 'react-feather'
 import { StaticImage } from "gatsby-plugin-image"
+import {
+  sidebarMenu,
+  sidebarMenuHeader,
+  sidebarMenuHeaderItem,
+  sidebarMenuHeaderItemImg,
+  sidebarMenuCenter,
+  sidebarMenuCenterItem,
+  sidebarMenuCenterItemImg,
+  sidebarMenuCenterItemText,
+  sidebarMenuEnd,
+  sidebarMenuEndDivider,
+  sidebarMenuEndItem,
+  sidebarMenuEndItemImg,
+  sidebarMenuEndItemText
+} from "./nav.module.css"
 
 const Nav = ({ siteTitle }) => (
-  <nav id="navbar" className="sidebar-menu">
-    <header className="sidebar-menu-header">
-      <Link to="/" className="sidebar-menu-header-item">
-        <i className="sidebar-menu-header-item--img"><Activity/></i>
+  <nav id="navbar" className={sidebarMenu}>
+    <header className={sidebarMenuHeader}>
+      <Link to="/" className={sidebarMenuHeaderItem}>
+        <i className={sidebarMenuHeaderItemImg}><Activity /></i>
       </Link>
     </header>
-    <div className="sidebar-menu-center">
-      <Link to="/" className="sidebar-menu-center-item">
-        <i className="sidebar-menu-center-item--img "><Home/></i>
-        <span className="sidebar-menu-center-item--text">Home</span>
+    <div className={sidebarMenuCenter}>
+      <Link to="/" className={sidebarMenuCenterItem}>
+        <i className={sidebarMenuCenterItemImg}><Home /></i>
+        <span className={sidebarMenuCenterItemText}>Home</span>
       </Link>
-      <Link to="/" className="sidebar-menu-center-item">
-        <i className="sidebar-menu-center-item--img"><Bookmark/></i>
-        <span className="sidebar-center-item--text">My List</span>
+      <Link to="/" className={sidebarMenuCenterItem}>
+        <i className={sidebarMenuCenterItemImg}><Bookmark /></i>
+        <span className={sidebarMenuCenterItemText}>My List</span>
       </Link>
     </div>
-    <div className="sidebar-menu-end">
-      <hr className="sidebar-menu-end-divider" />
-      <Link to="/" className="sidebar-menu-end-item">
-        <span  className="sidebar-menu-end-item--img">
-      <StaticImage
-          src="../images/me.png"
-          loading="eager"
-          width={64}
-          quality={95}
-          formats={["auto", "webp", "avif"]}
-          alt="profil_img"
-        
-        />
-       </span>
-        <span className="sidebar-menu-end-item--text">My profil</span>
+    <div className={sidebarMenuEnd}>
+      <hr className={sidebarMenuEndDivider} />
+      <Link to="/" className={sidebarMenuEndItem}>
+        <span className={sidebarMenuEndItemImg}>
+          <StaticImage
+            src="../images/me.png"
+            loading="eager"
+
+            quality={95}
+            formats={["auto", "webp", "avif"]}
+            alt="profil_img"
+
+          />
+        </span>
+        <span className={sidebarMenuEndItemText}>My profil</span>
       </Link>
     </div>
   </nav>
