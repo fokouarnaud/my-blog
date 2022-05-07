@@ -9,8 +9,10 @@
     line-height: 1.6;
     font-family: "Poppins", "Open Sans", sans-serif;
   }
+
   
   .container-box {
+    min-height: 100vh;
     max-width: 124rem;
     display: flex;
     flex-direction: row;
@@ -220,6 +222,7 @@
   }
   
   .home {
+      min-height: 100vh;
     font-size: 2rem;
     display: flex;
     flex-direction: column;
