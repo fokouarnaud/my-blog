@@ -4,7 +4,7 @@
  * See: https://www.gatsbyjs.com/docs/browser-apis/
  */
 
- import "./src/static/css/global.css"
+ import "./src/styles/global.css"
 
  // or:
  // require('./src/styles/global.css')
