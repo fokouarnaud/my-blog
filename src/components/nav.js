@@ -1,7 +1,8 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import { Activity,Home,Bookmark } from 'react-feather';
+import { Activity,Home,Bookmark } from 'react-feather'
+import { StaticImage } from "gatsby-plugin-image"
 
 const Nav = ({ siteTitle }) => (
   <nav id="navbar" className="sidebar-menu">
@@ -23,11 +24,17 @@ const Nav = ({ siteTitle }) => (
     <div className="sidebar-menu-end">
       <hr className="sidebar-menu-end-divider" />
       <Link to="/" className="sidebar-menu-end-item">
-        <img
-          className="sidebar-menu-end-item--img"
-          src="/images/me.png"
+        <span  className="sidebar-menu-end-item--img">
+      <StaticImage
+          src="../images/me.png"
+          loading="eager"
+          width={64}
+          quality={95}
+          formats={["auto", "webp", "avif"]}
           alt="profil_img"
+        
         />
+       </span>
         <span className="sidebar-menu-end-item--text">My profil</span>
       </Link>
     </div>
