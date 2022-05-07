@@ -6,10 +6,11 @@ import Seo from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <Seo title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <Seo title="About Me" />
+    <h1>About Me</h1>
+    <Link to="/">Back to Home</Link>
+      <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
+    
   </Layout>
 )
 
