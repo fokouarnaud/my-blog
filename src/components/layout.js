@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
         <div className="sidebar-detail">
         <form className="search-form">
           <div className="search-form-box">
-            <input type="text" name="search-form-box--input" placeholder="Search" class="search-form-box--input"/>
+            <input type="text" name="search-form-box--input" placeholder="Search" className="search-form-box--input"/>
             <button className="search-form-box--btn">
               <i><Search/></i>
             </button>
