@@ -8,6 +8,8 @@ npm install gray-matter
 ```
 ## challenge link
 - https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5
+- https://dev.to/andrewespejo/how-to-design-a-simple-and-beautiful-navbar-using-nextjs-and-tailwindcss-26p1
+
 ### Ressources
 - https://tailwindcss.com/
 - https://play.tailwindcss.com/

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className="bg-yellow-400 pb-10 border-b border-black">
+        <div className="bg-yellow-400 pt-24 pb-10 border-b border-black">
             <div className="max-w-7xl mx-auto flex flex-row items-center justify-between py-3">
                 <div className="max-w-2xl space-y-10">
                     <h1 className="text-black  text-7xl font-serif tracking-tighter">   Where good ideas find you</h1>
