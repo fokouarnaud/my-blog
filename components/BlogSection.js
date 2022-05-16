@@ -9,6 +9,12 @@ const BlogSection = () => {
             <div className="grid gap-10 xl:grid-cols-3">
                 <div className="col-span-2">
                     <BlogCard/>
+                    <BlogCard/>
+                    <BlogCard/>
+                    <BlogCard/>
+                    <BlogCard/>
+                    <BlogCard/>
+                    <BlogCard/>
                 </div>
                 <div className="">
                     <SidePanel/>
