@@ -19,7 +19,6 @@ const BlogSection = () => {
                 <div className="">
                     <SidePanel/>
                 </div>
-
             </div>
         </div>
 
