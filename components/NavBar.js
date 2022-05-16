@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <div className="bg-yellow-400 border-b border-black">
 
-        <div className="max-w-7xl mx-auto flex flex-row items-center justify-between py-3">
+        <div className="max-w-7xl mx-auto flex flex-row items-center justify-between py-3 xl:px-5">
             <div>
                 <img className=" h-12" src ="/images/logo.png" alt="act-blog"/>
             </div>

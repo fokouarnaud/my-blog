@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Hero from '../components/Hero'
 import NavBar from '../components/NavBar'
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
        <title>Acti-blog</title>
      </Head>
      <NavBar/>
+     <Hero/>
     </div>
   )
 }
