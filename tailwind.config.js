@@ -4,6 +4,10 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      sans: ['Inter', 'sans-serif'],
+      serif: ['Lora', 'serif'],
+    },
     extend: {},
   },
   plugins: [],

@@ -1,9 +1,13 @@
 import Head from 'next/head'
+import NavBar from '../components/NavBar'
 
 export default function Home() {
   return (
-   <div className="text-7xl mx-auto">
-     Welcome to tailwindcss!
+   <div>
+     <Head>
+       <title>Acti-blog</title>
+     </Head>
+     <NavBar/>
     </div>
   )
 }
