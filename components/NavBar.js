@@ -29,7 +29,7 @@ const NavBar = () => {
                         <li><a href="#">Membership</a></li>
                         <li><a href="#">Write</a></li>
                         <li><a href="#">Sign In</a></li>
-                        <li><a href="#" className={fix ? "bg-green-400 rounded-full text-black px-5 py-3" : "bg-black rounded-full text-white px-5 py-3"}>Get started</a></li>
+                        <li><a href="#" className={fix ? "bg-green-600 rounded-full text-white px-5 py-3" : "bg-black rounded-full text-white px-5 py-3"}>Get started</a></li>
                     </ul>
                 </div>
 
