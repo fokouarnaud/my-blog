@@ -217,7 +217,39 @@ export default function Post({ postData }) {
                                 from companion apps like <a className="underline text-inherit" href="https://www.press.bmwgroup.com/global/article/detail/T0328610EN/the-my-bmw-app:-new-features-and-tech-insights-for-march-2021?language=en"  target="_blank">My BMW</a>{" "}
                                  to public institutions such as the <a className="underline text-inherit" href="https://apps.apple.com/app/id1506827551"  target="_blank">Brazil government</a>.
                             </p>
-                            <blockquote className="m-0"><p className="text-4xl font-light tracking-[-.009em]" >Today there are over 500,000 apps built with Flutter.</p></blockquote>
+                            <blockquote className="m-0 pl-12"><p className=" mt-10 -mb-1 text-3xl text-gray-500 font-light tracking-[-.009em]" >Today there are over 500,000 apps built with Flutter.</p></blockquote>
+                            <figure className="mt-20 clear-both m-0">
+                                  <div className="mx-auto  relative ">
+
+                                    <div className="pb-96 ">
+                                   
+                                    <iframe   className="h-full w-full left-0 top-0    absolute" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F8RmsstcNE1Y%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8RmsstcNE1Y&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F8RmsstcNE1Y%2Fhqdefault.jpg&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;type=text%2Fhtml&amp;schema=youtube" title="ByteDance (Flutter Dev Story)"   >
+
+                                    </iframe>
+                                    </div>
+                                  </div>
+                            </figure>
+                            <p className="mt-8 tracking-[-.003em] leading-8 text-xl text-gray-800 -mb-1 font-serif">
+                            Developers tell us that Flutter helps build beautiful apps more quickly for more platforms. In our most recent user study:
+                            </p>
+                            <ul>
+                              <li className="mt-8 tracking-[-.003em] text-gray-800 list-disc -mb-1 text-xl pl-0 ml-12 font-serif">
+                              91% of developers agreed that Flutter reduced the time it took to build and publish an app.
+                              </li> 
+                              <li className="mt-8 tracking-[-.003em] text-gray-800 list-disc -mb-1 text-xl pl-0 ml-12 font-serif">
+                              85% of developers agreed that Flutter made their app more beautiful than before.
+                              </li> 
+                              <li className="mt-8 tracking-[-.003em] text-gray-800 list-disc -mb-1 text-xl pl-0 ml-12 font-serif">
+                              85% agreed that it enabled them to publish their app for more platforms than before.
+                              </li>
+                            </ul>
+                            <p className="mt-8 tracking-[-.003em] leading-8 text-xl text-gray-800 -mb-1 font-serif">
+                            In a <a className="underline text-inherit" href="https://tech-blog.sonos.com/posts/renovating-setup-with-flutter/"  target="_blank">recent blog post by Sonos</a>{" "}
+                             discussing their <mark className="text-current cursor-pointer bg-gray-200">revamped </mark>setup experience, they emphasized the second of these:
+                            a rich library of packages and many performance and tooling improvements.
+                            </p>
+                            <blockquote 
+                            className="-ml-8 pl-8 shadow-[rgba(41,41,41,1)_3px_0_0_0_inset] "><p className="mt-8 -mb-1 tracking-[-.003em] leading-8 text-xl text-gray-700 ">“It is not an exaggeration to say that [Flutter] has unlocked a degree of “<em className="font-normals">premium</em>” unlike anything our team had delivered before. Most important to our designers, the ease with which new UIs can be built means that our team spends less time saying “no” to specs and more time iterating on them. If this sounds worth it, we’d recommend giving Flutter a try — we’re glad we did.”</p></blockquote>
                           </div>
 
                         </section>
