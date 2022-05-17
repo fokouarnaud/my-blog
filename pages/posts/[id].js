@@ -167,11 +167,11 @@ export default function Post({ postData }) {
                               <h1 className="mt-2 -mb-1 tracking-tight text-5xl font-bold ">Introducing Flutter 3</h1>
                             </div>
                             <div>
-                              <h2 className=" tracking-normal not-italic mt-3 text-xl -mb-2 text-gray-500">
+                              <h2 className=" tracking-normal not-italic mt-3 text-xl -mb-1 text-gray-500">
                               The culmination of our journey to multiplatform UI development on phone, desktop, and web
                               </h2>
                             </div>
-                            <p className="tracking-tight text-2xl mt-8 -mb-1 font-serif">
+                            <p className="tracking-[.003em] leading-8 text-2xl mt-8 -mb-1 font-serif">
                                 <em className="italic text-xl text-gray-800">
 
                                 We’re delighted to announce the launch of Flutter 3 as part of the 
@@ -187,7 +187,39 @@ export default function Post({ postData }) {
                                     </div>
                                   </div>
                             </figure>
+                            <h1 className="mt-12 tracking-normal  text-3xl -mb-1 font-semibold " >
+                            The journey to Flutter 3
+                            </h1>
+                            <p className="mt-8 tracking-[-.003em] leading-8 text-xl text-gray-800 -mb-1 font-serif">
+                            We started Flutter as an attempt to revolutionize app development: 
+                            combining the iterative development model of the web with hardware-accelerated graphics rendering and pixel-level control that were previously the preserve of games. Over the last four years since Flutter 1.0 beta, we’ve gradually built on these foundations, adding new framework capabilities and new widgets, deeper integration with the underlying platforms,
+                            a rich library of packages and many performance and tooling improvements.
+                            </p>
+                            <figure className="mt-20 clear-both mx-auto m-0">
+                                  <div className="z-auto cursor-zoom-in ease-out relative w-full">
+
+                                    <div className="max-w-6xl mx-auto">
+                                    <img alt="first_image" className="h-auto max-w-full align-middle" src="https://miro.medium.com/max/700/0*pL2z2iYzWPrMu5hw"/>
+                                    </div>
+                                  </div>
+                            </figure>
+                            <p className="mt-8 tracking-[-.003em] leading-8 text-xl text-gray-800 -mb-1 font-serif">
+                           As the product has matured, more of you have started to build apps with it. Today there are over 500,000 apps built with Flutter. Analytics from 
+                           research firms like <a className="underline text-inherit" href="https://www.data.ai/en/"  target="_blank">data.ai</a>, along with public testimonials,
+                            show Flutter is used by a <a className="underline text-inherit" href="https://flutter.dev/showcase"  target="_blank">broad list of customers</a>
+                            {" "} in many segments: from social apps like <a className="underline text-inherit" href="https://play.google.com/store/apps/details?id=com.tencent.mm&amp;hl=en_US&amp;gl=US"  target="_blank">WeChat</a> 
+                             to finance and banking apps like <a className="underline text-inherit" href="https://apps.apple.com/us/app/betterment-investing-saving/id393156562"  target="_blank">Betterment</a> and {" "}
+                              <a className="underline text-inherit" href="https://play.google.com/store/apps/details?id=com.nu.production&amp;hl=en_US&amp;gl=US" target="_blank">Nubank</a>;
+                               from commerce apps like <a className="underline text-inherit" href="https://play.google.com/store/apps/details?id=com.zzkko&amp;hl=en_US&amp;gl=US" target="_blank">SHEIN</a> {" "}
+                               and <a className="underline text-inherit" href="https://apps.apple.com/us/app/trip-com-hotels-flights-trains/id681752345"  target="_blank">trip.com</a> 
+                               to lifestyle apps like <a className="underline text-inherit" href="https://fastic.com/"  target="_blank">Fastic</a> 
+                               and <a className="underline text-inherit" href="https://auspreneur.com.au/tabcorp-adopts-googles-flutter-platform/"  target="_blank">Tabcorp</a>;
+                                from companion apps like <a className="underline text-inherit" href="https://www.press.bmwgroup.com/global/article/detail/T0328610EN/the-my-bmw-app:-new-features-and-tech-insights-for-march-2021?language=en"  target="_blank">My BMW</a>{" "}
+                                 to public institutions such as the <a className="underline text-inherit" href="https://apps.apple.com/app/id1506827551"  target="_blank">Brazil government</a>.
+                            </p>
+                            <blockquote className="m-0"><p className="text-4xl font-light tracking-[-.009em]" >Today there are over 500,000 apps built with Flutter.</p></blockquote>
                           </div>
+
                         </section>
                       </div>
 
