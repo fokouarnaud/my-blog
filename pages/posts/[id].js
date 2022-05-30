@@ -5,13 +5,16 @@ import Date from '../../components/date';
 import utilStyles from '../../styles/utils.module.css';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { MDXRemote } from 'next-mdx-remote';
+import Button from '../../components/Button';
 
-const components={SyntaxHighlighter}
+
+const components={SyntaxHighlighter,Button}
 
 export default function Post({ postData }) {
 
     return (
       <Layout>
+        
         <Head>
           <title>{postData.title}</title>
         </Head>
